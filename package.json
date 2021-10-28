@@ -1,8 +1,8 @@
 {
   "name": "@ckmk/webpack-config",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/js/webpack-config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
