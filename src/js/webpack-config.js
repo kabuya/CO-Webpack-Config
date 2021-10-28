@@ -333,9 +333,6 @@ class WebpackConfig {
     addDefaultAlias() {
         this.setDefault(DEFAULT_PATH_ALIAS);
         this
-            .addAlias("@co/styles", "./core/Controllers/Controller/Templating/Admin/Views/resources/css/ckmk.scss")
-            .addAlias("@co/admin-styles", "./core/Controllers/Controller/Templating/Admin/Views/resources/css/admin.scss")
-            .addAlias("@co/scripts", "./core/Controllers/Controller/Templating/Admin/Views/resources/js/ckmk.js")
             .addAlias("@co/resources", "./core/Controllers/Controller/Templating/Admin/Views/resources")
             .addAlias("@co/css", "./core/Controllers/Controller/Templating/Admin/Views/resources/css")
             .addAlias("@co/js", "./core/Controllers/Controller/Templating/Admin/Views/resources/js")
