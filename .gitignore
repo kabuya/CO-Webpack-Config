@@ -1,0 +1,9 @@
+#Remove Files
+package-lock.json
+
+#Remove folder
+/node_modules/
+/.idea/
+/.vscode/
+
+note.txt
