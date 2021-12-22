@@ -1,6 +1,6 @@
 {
   "name": "@ckmk/webpack-config",
-  "version": "1.5.5",
+  "version": "1.5.8",
   "description": "Objet permettant de construire la configuration de Webpack dans le fichier local webpack.config.js",
   "main": "./src/js/webpack-config.js",
   "scripts": {
