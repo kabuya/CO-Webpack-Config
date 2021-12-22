@@ -22,12 +22,23 @@ let
     config = {
         stats : {
             errorDetails : false,
+        },
+        devServer: {
+            port: 8080,
+            contentBase: [
+                path.resolve('assets'),
+                path.resolve('public'),
+                path.resolve('views'),
+            ], // both src and output dirs
+            inline: true,
+            hot: true
         }
     },
     defaults = {},
     dev = process.env.NODE_ENV === "dev",
     defaultCssLoader = undefined
 ;
+
 
 class WebpackConfig {
 
