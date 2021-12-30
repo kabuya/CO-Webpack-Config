@@ -272,8 +272,8 @@ class WebpackConfig {
 
         //this.setEntry(
         //    "ckmk",
-        //    "./core/Controllers/Controller/Templating/Admin/Views/resources/css/ckmk.scss",
-        //    "./core/Controllers/Controller/Templating/Admin/Views/resources/js/ckmk.js"
+        //    "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/css/ckmk.scss",
+        //    "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/js/ckmk.js"
         //);
         return this;
     }
@@ -334,12 +334,12 @@ class WebpackConfig {
     addDefaultAlias() {
         this.setDefault(DEFAULT_PATH_ALIAS);
         this
-            .addAlias("@co/resources", "./core/Controllers/Controller/Templating/Admin/Views/resources")
-            .addAlias("@co/css", "./core/Controllers/Controller/Templating/Admin/Views/resources/css")
-            .addAlias("@co/js", "./core/Controllers/Controller/Templating/Admin/Views/resources/js")
-            .addAlias("@co/img", "./core/Controllers/Controller/Templating/Admin/Views/resources/img")
-            .addAlias("@co/form-default-colors", "./core/Controllers/Controller/Templating/Admin/Views/resources/css/colors/form.default.colors")
-            .addAlias("@co/form-script", "./core/Controllers/Controller/Templating/Admin/Views/resources/css/colors/form.script")
+            .addAlias("@co/resources", "./ckmk/Controllers/Controller/Templating/Admin/Views/resources")
+            .addAlias("@co/css", "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/css")
+            .addAlias("@co/js", "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/js")
+            .addAlias("@co/img", "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/img")
+            .addAlias("@co/form-default-colors", "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/css/colors/form.default.colors")
+            .addAlias("@co/form-script", "./ckmk/Controllers/Controller/Templating/Admin/Views/resources/css/colors/form.script")
             .addAlias("@public", "./public")
             .addAlias("@resources", "./public/resources")
             .addAlias("@assets", "./assets")
